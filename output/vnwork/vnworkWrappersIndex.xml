@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<?xml-stylesheet href="..\.style\index.xsl" type="text/xsl"?>
+<index>
+  <wrapper name="vnwork0" source="vnwork00.xml" dataset="vnwork0_DataSet.xml" number_of_samples="4" compress_ratio="47,56%" schema_dl="18044" instances_dl="29133" samples_dl="99200">
+    <instance name="VNW_1000usdmonth491741jd" source="file:/D:/workspaces/ofwi/RoadRunnerOriginal/examples/vnwork/html/VNW_1000usdmonth491741jd.html" sample_dl="27492" instance_dl="10085"/>
+    <instance name="VNW_anceteacher1492166jd" source="file:/D:/workspaces/ofwi/RoadRunnerOriginal/examples/vnwork/html/VNW_anceteacher1492166jd.html" sample_dl="25220" instance_dl="7750"/>
+    <instance name="VNW_angkemfanny1488628jd" source="file:/D:/workspaces/ofwi/RoadRunnerOriginal/examples/vnwork/html/VNW_angkemfanny1488628jd.html" sample_dl="21810" instance_dl="4340"/>
+    <instance name="VNW_ntienganhkha493192jd" source="file:/D:/workspaces/ofwi/RoadRunnerOriginal/examples/vnwork/html/VNW_ntienganhkha493192jd.html" sample_dl="24678" instance_dl="6958"/>
+  </wrapper>
+</index>

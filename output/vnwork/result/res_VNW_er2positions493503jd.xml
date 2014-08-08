@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<?xml-stylesheet href="..\.style\data.xsl" type="text/xsl"?>
+  <instance source="file:/D:/workspaces/ofwi/RoadRunnerOriginal/output/vnwork/html/VNW_er2positions493503jd.html" name="VNW_er2positions493503jd">
+    <and>
+      <attribute label="_A_">Senior Front-end Developer (2 Positions) job - VietnamWorks</attribute>
+      <attribute label="_B_">Senior Front-end Developer (2 Positions)</attribute>
+      <attribute label="_C_">Senior Front-end Developer (2 Positions)</attribute>
+      <attribute label="_D_">Posiba</attribute>
+      <attribute label="_E_">Melinh Point Tower, 2 Ngo Duc Ke, Q.1, HCMC</attribute>
+      <attribute label="_F_">- Design and develop web applications with pixel perfect quality in regards to navigational layouts and appearance - Work directly with the design team and back-end development team to implement mockups using HTML/CSS/JavaScript and integrate with the back-end stack - Debug and troubleshoot layout and scripting issues across a variety of desktop and mobile browsers  Opportunities** - Work with a truly global highly experienced engineering team spanning 3 continents across the globe - Excellent salary and employee benefits (high-quality health insurance, bonus programs, employee referral programs, and many more) - Build a solid career path with clear and attractive promotion opportunities - Receive unparalleled coaching and training from industry-leading experts</attribute>
+      <attribute label="_G_">- 2+ years experience designing and developing web interfaces - Significant experience in HTML5, CSS3, JavaScript, JQuery, AJAX, JSON  - Familiar with front-end web frameworks such as Bootstrap, AngularJS, Ember.js - Experience with responsive design principles for web sites - Proficiency with Adobe Creative Suite, Photoshop or other image editing software - Experience in agile development disciplines and principles (preferably Scrum) - Working knowledge of Git (or similar version control systems) - Self-motivated, ability to work independently and efficiently with a strong attention to detail and accuracy - Ability to multi-task and work across multiple projects - Excellent written and verbal English skills</attribute>
+      <attribute label="_H_">Experienced (Non-Manager)</attribute>
+      <attribute label="_I_">Internet/Online MediaIT - Hardware/NetworkingIT - Software</attribute>
+      <attribute label="_J_">Ho Chi Minh</attribute>
+      <attribute label="_K_">English</attribute>
+      <attribute label="_L_">439 Views</attribute>
+      <attribute label="_M_">20 Aug Expires</attribute>
+      <subtree>
+<DIV class="row"> 
+        <DIV class="col-md-3 col-sm-3 box-md "> 
+         <DIV class="logo-cus"> 
+          <IMG alt="Employer's logo - Posiba" src="http://images.vietnamworks.com/pictureofcompany/cc/10146268.png"/> 
+         </DIV> 
+        </DIV> 
+        <DIV class="col-md-9 col-sm-9"> 
+         <H3> Posiba <SMALL>Melinh Point Tower, 2 Ngo Duc Ke, Q.1, HCMC</SMALL> </H3> 
+        </DIV> 
+        <DIV class="col-md-9 col-sm-9">  Contact person: 
+         <STRONG>Emily Anderson</STRONG> Company size: 
+         <STRONG>25-99</STRONG>  
+        </DIV> 
+       </DIV>      </subtree>
+      <attribute label="_N_">At Posiba, a product company based in California (USA), you will be part of a growing international team of talented engineers and designers who are passionate about solving problems using advanced technologies and creative solutions.  With headquarters in San Diego, California and with offices all around the world, you will have the opportunity to interact with and learn from technology experts and data scientists with diverse professional and academic backgrounds.  If you are excited about and ready to solve complex problems and build the next-generation analytics solutions while directly helping charitable foundations do their work more effectively, you will fit right in at Posiba. View more  More jobs from this employer</attribute>
+    </and>
+  </instance>

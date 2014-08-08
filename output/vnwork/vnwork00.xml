@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<wrapper name="vnwork">
+<preferences name="Wrapper Configuration for Lexical Analysis">
+  <variantTags value="a,font,b,i,span,sup"/>
+  <skipAttributes value="selected,bgcolor"/>
+  <skipTrees value="script,style"/>
+  <freetextTags value="a,font,b,i,span,sup"/>
+  <skipTags value="script,link,img"/>
+  <keepTags value="false"/>
+  <attributeValues value="id,class"/>
+  <freetext value="false"/>
+</preferences>
+<expression>
+  <and>
+    <tag element="html" depth="0" code="1" attrs=""/>
+    <tag element="body" depth="1" code="2" attrs=""/>
+    <variant label="_A_" code="0"><pcdata depth="2"><![CDATA[Senior iOS Developer (800 Usd/month – 1000 Usd/month) job - VietnamWorks]]></pcdata></variant>
+    <tag element="div" depth="2" code="3" attrs=""/>
+    <tag element="div" depth="3" code="4" attrs="class:container hidden-lg hidden-md hidden-sm"/>
+    <tag element="div" depth="4" code="5" attrs="class:ud-top-link xs"/>
+    <tag element="div" depth="5" code="6" attrs="class:language pull-right"/>
+    <pcdata depth="6"><![CDATA[Tiếng Việt]]></pcdata>
+    <tag element="strong" depth="6" code="7" attrs=""/>
+    <pcdata depth="7"><![CDATA[Find top talent?]]></pcdata>
+    <tag element="/strong" depth="6" code="-7" attrs=""/>
+    <tag element="strong" depth="6" code="7" attrs=""/>
+    <pcdata depth="7"><![CDATA[Employer Site]]></pcdata>
+    <tag element="/strong" depth="6" code="-7" attrs=""/>
+    <tag element="/div" depth="5" code="-6" attrs="class:language pull-right"/>
+    <tag element="/div" depth="4" code="-5" attrs="class:ud-top-link xs"/>
+    <tag element="/div" depth="3" code="-4" attrs="class:container hidden-lg hidden-md hidden-sm"/>
+    <tag element="div" depth="3" code="8" attrs="class:container"/>
+    <tag element="div" depth="4" code="9" attrs="class:navbar-header"/>
+    <tag element="/div" depth="4" code="-9" attrs="class:navbar-header"/>
+    <tag element="div" depth="4" code="10" attrs="class:navbar-collapse collapse"/>
+    <tag element="div" depth="5" code="11" attrs="class:ud-top-link hidden-xs"/>
+    <tag element="div" depth="6" code="6" attrs="class:language pull-right"/>
+    <pcdata depth="7"><![CDATA[Email Me Jobs    Tiếng Việt]]></pcdata>
+    <tag element="strong" depth="7" code="7" attrs=""/>
+    <pcdata depth="8"><![CDATA[Find top talent?]]></pcdata>
+    <tag element="/strong" depth="7" code="-7" attrs=""/>
+    <tag element="strong" depth="7" code="7" attrs=""/>
+    <pcdata depth="8"><![CDATA[Employer Site]]></pcdata>
+    <tag element="/strong" depth="7" code="-7" attrs=""/>
+    <tag element="/div" depth="6" code="-6" attrs="class:language pull-right"/>
+    <tag element="/div" depth="5" code="-11" attrs="class:ud-top-link hidden-xs"/>
+    <tag element="div" depth="5" code="12" attrs="class:main-menu clearfix"/>
+    <tag element="ul" depth="6" code="13" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[Sign in]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[Create New Account]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <tag element="ul" depth="8" code="13" attrs=""/>
+    <tag element="li" depth="9" code="14" attrs=""/>
+    <pcdata depth="10"><![CDATA[Sign In or Create New Account to access My Career Center]]></pcdata>
+    <tag element="/li" depth="9" code="-14" attrs=""/>
+    <tag element="li" depth="9" code="14" attrs=""/>
+    <tag element="/li" depth="9" code="-14" attrs=""/>
+    <tag element="li" depth="9" code="14" attrs=""/>
+    <pcdata depth="10"><![CDATA[My Career Center]]></pcdata>
+    <tag element="/li" depth="9" code="-14" attrs=""/>
+    <tag element="li" depth="9" code="14" attrs=""/>
+    <pcdata depth="10"><![CDATA[Create New Resume]]></pcdata>
+    <tag element="/li" depth="9" code="-14" attrs=""/>
+    <tag element="li" depth="9" code="14" attrs=""/>
+    <pcdata depth="10"><![CDATA[My Resumes]]></pcdata>
+    <tag element="/li" depth="9" code="-14" attrs=""/>
+    <tag element="li" depth="9" code="14" attrs=""/>
+    <pcdata depth="10"><![CDATA[My Jobs]]></pcdata>
+    <tag element="/li" depth="9" code="-14" attrs=""/>
+    <tag element="li" depth="9" code="14" attrs=""/>
+    <pcdata depth="10"><![CDATA[Job Alerts]]></pcdata>
+    <tag element="/li" depth="9" code="-14" attrs=""/>
+    <tag element="li" depth="9" code="14" attrs=""/>
+    <pcdata depth="10"><![CDATA[Employer's Messages]]></pcdata>
+    <tag element="/li" depth="9" code="-14" attrs=""/>
+    <tag element="/ul" depth="8" code="-13" attrs=""/>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="/ul" depth="6" code="-13" attrs=""/>
+    <tag element="/div" depth="5" code="-12" attrs="class:main-menu clearfix"/>
+    <tag element="/div" depth="4" code="-10" attrs="class:navbar-collapse collapse"/>
+    <tag element="/div" depth="3" code="-8" attrs="class:container"/>
+    <tag element="div" depth="3" code="15" attrs="class:main-wrapper "/>
+    <tag element="div" depth="4" code="16" attrs="class:container hidden-sm hidden-md hidden-lg "/>
+    <tag element="div" depth="5" code="17" attrs="class:pull-right sm-search-toggle"/>
+    <pcdata depth="6"><![CDATA[Search Jobs]]></pcdata>
+    <tag element="/div" depth="5" code="-17" attrs="class:pull-right sm-search-toggle"/>
+    <tag element="/div" depth="4" code="-16" attrs="class:container hidden-sm hidden-md hidden-lg "/>
+    <tag element="div" depth="4" code="18" attrs="id:search-widget-wrapper"/>
+    <tag element="div" depth="5" code="19" attrs="id:search-widget,class:collapse "/>
+    <tag element="div" depth="6" code="20" attrs="class:search-form container"/>
+    <tag element="div" depth="7" code="21" attrs="class:bg-blue"/>
+    <tag element="div" depth="8" code="22" attrs="class:row"/>
+    <tag element="div" depth="9" code="23" attrs="class:col-md-10 col-sm-10"/>
+    <tag element="div" depth="10" code="22" attrs="class:row"/>
+    <tag element="div" depth="11" code="24" attrs="class:col-md-6 col-sm-6"/>
+    <tag element="div" depth="12" code="25" attrs="class:textbox"/>
+    <pcdata depth="13"><![CDATA[Select Categories  All categories Accounting Administrative/Clerical Advertising/Promotion/PR Agriculture/Forestry Airlines/Tourism/Hotel Architecture/Interior Design Arts/Design Auditing Automotive Banking Chemical/Biochemical Civil/Construction Consulting Customer Service Education/Training Electrical/Electronics Entry level Environment/Waste Services Executive management Expatriate Jobs in Vietnam Export-Import Fashion/Lifestyle Finance/Investment Food & Beverage Freight/Logistics Health/Medical Care High Technology Human Resources Industrial Products Insurance Internet/Online Media Interpreter/Translator IT - Hardware/Networking IT - Software Legal/Contracts Luxury Goods Marketing Mechanical NGO/Non-Profit Oil/Gas Overseas Jobs Pharmaceutical/Biotech Planning/Projects Production/Process Purchasing/Supply Chain QA/QC Real Estate Retail/Wholesale Sales Sales Technical Securities & Trading Telecommunications Temporary/Contract Textiles/Garments/Footwear TV/Media/Newspaper Warehouse Other]]></pcdata>
+    <tag element="/div" depth="12" code="-25" attrs="class:textbox"/>
+    <tag element="/div" depth="11" code="-24" attrs="class:col-md-6 col-sm-6"/>
+    <tag element="div" depth="11" code="24" attrs="class:col-md-6 col-sm-6"/>
+    <tag element="div" depth="12" code="26" attrs="class:textbox location"/>
+    <pcdata depth="13"><![CDATA[Select Locations  Any location Ho Chi Minh Ha Noi Mekong Delta An Giang Ba Ria - Vung Tau Bac Can Bac Giang Bac Lieu Bac Ninh Ben Tre Bien Hoa Binh Dinh Binh Duong Binh Phuoc Binh Thuan Ca Mau Can Tho Cao Bang Da Nang Dac Lac Dien Bien Dong Nai Dong Thap Gia Lai Ha Giang Ha Nam Ha Tay Ha Tinh Hai Duong Hai Phong Hoa Binh Hue Hung Yen Khanh Hoa Kon Tum Lai Chau Lam Dong Lang Son Lao Cai Nam Dinh Nghe An Ninh Binh Ninh Thuan Phu Tho Phu Yen Quang Binh Quang Nam Quang Ngai Quang Ninh Quang Tri Soc Trang Son La Tay Ninh Thai Binh Thai Nguyen Thanh Hoa Thua Thien-Hue Tien Giang Tra Vinh Tuyen Quang Kien Giang Vinh Long Vinh Phuc Yen Bai Other International Hau Giang Long An]]></pcdata>
+    <tag element="/div" depth="12" code="-26" attrs="class:textbox location"/>
+    <tag element="/div" depth="11" code="-24" attrs="class:col-md-6 col-sm-6"/>
+    <tag element="/div" depth="10" code="-22" attrs="class:row"/>
+    <tag element="div" depth="10" code="27" attrs="id:more-criteria,class:row collapse"/>
+    <tag element="div" depth="11" code="24" attrs="class:col-md-6 col-sm-6"/>
+    <tag element="div" depth="12" code="25" attrs="class:textbox"/>
+    <pcdata depth="13"><![CDATA[Select Job Level  All job level New Grad/Entry Level/Internship Experienced (Non-Manager) Team Leader/Supervisor Manager Vice Director Director CEO Vice President President]]></pcdata>
+    <tag element="/div" depth="12" code="-25" attrs="class:textbox"/>
+    <tag element="/div" depth="11" code="-24" attrs="class:col-md-6 col-sm-6"/>
+    <tag element="div" depth="11" code="24" attrs="class:col-md-6 col-sm-6"/>
+    <tag element="div" depth="12" code="25" attrs="class:textbox"/>
+    <tag element="/div" depth="12" code="-25" attrs="class:textbox"/>
+    <tag element="/div" depth="11" code="-24" attrs="class:col-md-6 col-sm-6"/>
+    <tag element="/div" depth="10" code="-27" attrs="id:more-criteria,class:row collapse"/>
+    <tag element="div" depth="10" code="22" attrs="class:row"/>
+    <tag element="div" depth="11" code="28" attrs="class:col-md-12"/>
+    <tag element="/div" depth="11" code="-28" attrs="class:col-md-12"/>
+    <tag element="/div" depth="10" code="-22" attrs="class:row"/>
+    <tag element="/div" depth="9" code="-23" attrs="class:col-md-10 col-sm-10"/>
+    <tag element="div" depth="9" code="29" attrs="class:col-md-2 col-sm-2"/>
+    <tag element="strong" depth="10" code="7" attrs=""/>
+    <pcdata depth="11"><![CDATA[Search]]></pcdata>
+    <tag element="/strong" depth="10" code="-7" attrs=""/>
+    <tag element="/div" depth="9" code="-29" attrs="class:col-md-2 col-sm-2"/>
+    <tag element="/div" depth="8" code="-22" attrs="class:row"/>
+    <pcdata depth="8"><![CDATA[Show More Filters]]></pcdata>
+    <tag element="/div" depth="7" code="-21" attrs="class:bg-blue"/>
+    <tag element="/div" depth="6" code="-20" attrs="class:search-form container"/>
+    <tag element="div" depth="6" code="8" attrs="class:container"/>
+    <tag element="div" depth="7" code="30" attrs="class:hot-job bg-white collapsed"/>
+    <tag element="strong" depth="8" code="7" attrs=""/>
+    <pcdata depth="9"><![CDATA[Hot Job Categories]]></pcdata>
+    <tag element="/strong" depth="8" code="-7" attrs=""/>
+    <tag element="div" depth="8" code="31" attrs="id:hot-job-list,class:collapse link-list"/>
+    <tag element="div" depth="9" code="22" attrs="class:row"/>
+    <tag element="div" depth="10" code="32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="ul" depth="11" code="13" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Sales (892)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[IT - Software (607)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Marketing (553)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Production/Process (444)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Administrative/Clerical (399)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="/ul" depth="11" code="-13" attrs=""/>
+    <tag element="/div" depth="10" code="-32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="div" depth="10" code="32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="ul" depth="11" code="13" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Mechanical (376)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Accounting (371)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Electrical/Electronics (343)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Customer Service (339)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Finance/Investment (306)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="/ul" depth="11" code="-13" attrs=""/>
+    <tag element="/div" depth="10" code="-32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="div" depth="10" code="32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="ul" depth="11" code="13" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[IT - Hardware/Networking (298)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Internet/Online Media (273)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Civil/Construction (264)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Human Resources (260)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Interpreter/Translator (256)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="/ul" depth="11" code="-13" attrs=""/>
+    <tag element="/div" depth="10" code="-32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="div" depth="10" code="32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="ul" depth="11" code="13" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Airlines/Tourism/Hotel (252)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Sales Technical (246)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Auditing (231)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Executive management (227)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Export-Import (221)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="/ul" depth="11" code="-13" attrs=""/>
+    <tag element="/div" depth="10" code="-32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="div" depth="10" code="32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="ul" depth="11" code="13" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Banking (219)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Advertising/Promotion/PR (207)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Food & Beverage (199)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="li" depth="12" code="14" attrs=""/>
+    <pcdata depth="13"><![CDATA[Freight/Logistics (195)]]></pcdata>
+    <tag element="/li" depth="12" code="-14" attrs=""/>
+    <tag element="/ul" depth="11" code="-13" attrs=""/>
+    <tag element="/div" depth="10" code="-32" attrs="class:col-md-4 col-sm-4 col-lg-4"/>
+    <tag element="/div" depth="9" code="-22" attrs="class:row"/>
+    <tag element="div" depth="9" code="22" attrs="class:row"/>
+    <tag element="div" depth="10" code="28" attrs="class:col-md-12"/>
+    <pcdata depth="11"><![CDATA[View all categories]]></pcdata>
+    <tag element="/div" depth="10" code="-28" attrs="class:col-md-12"/>
+    <tag element="/div" depth="9" code="-22" attrs="class:row"/>
+    <tag element="/div" depth="8" code="-31" attrs="id:hot-job-list,class:collapse link-list"/>
+    <tag element="/div" depth="7" code="-30" attrs="class:hot-job bg-white collapsed"/>
+    <tag element="/div" depth="6" code="-8" attrs="class:container"/>
+    <tag element="/div" depth="5" code="-19" attrs="id:search-widget,class:collapse "/>
+    <tag element="/div" depth="4" code="-18" attrs="id:search-widget-wrapper"/>
+    <tag element="div" depth="4" code="33" attrs="class:dynamic-navbar hide"/>
+    <tag element="div" depth="5" code="34" attrs="class:navigation"/>
+    <tag element="div" depth="6" code="8" attrs="class:container"/>
+    <tag element="div" depth="7" code="22" attrs="class:row"/>
+    <tag element="div" depth="8" code="35" attrs="class:col-md-10"/>
+    <tag element="h2" depth="9" code="36" attrs=""/>
+    <variant label="_B_" code="0"><pcdata depth="10"><![CDATA[Senior iOS Developer (800 Usd/month – 1000 Usd/month)]]></pcdata></variant>
+    <tag element="/h2" depth="9" code="-36" attrs=""/>
+    <tag element="/div" depth="8" code="-35" attrs="class:col-md-10"/>
+    <tag element="div" depth="8" code="37" attrs="class:col-md-2 col-xs-12 pull-right"/>
+    <pcdata depth="9"><![CDATA[Apply Now]]></pcdata>
+    <tag element="/div" depth="8" code="-37" attrs="class:col-md-2 col-xs-12 pull-right"/>
+    <tag element="/div" depth="7" code="-22" attrs="class:row"/>
+    <tag element="/div" depth="6" code="-8" attrs="class:container"/>
+    <tag element="/div" depth="5" code="-34" attrs="class:navigation"/>
+    <tag element="/div" depth="4" code="-33" attrs="class:dynamic-navbar hide"/>
+    <tag element="div" depth="4" code="38" attrs="id:section-job-detail"/>
+    <tag element="div" depth="5" code="22" attrs="class:row"/>
+    <hook>
+      <and>
+        <tag element="div" depth="6" code="72" attrs="class:col-md-3 col-sm-4 hidden-xs pull-right"/>
+        <tag element="div" depth="7" code="73" attrs="class:box circle-lg"/>
+        <tag element="/div" depth="7" code="-73" attrs="class:box circle-lg"/>
+        <tag element="/div" depth="6" code="-72" attrs="class:col-md-3 col-sm-4 hidden-xs pull-right"/>
+      </and>
+    </hook>
+    <tag element="div" depth="6" code="39" attrs="class:col-md-9 col-sm-8 job-info"/>
+    <tag element="div" depth="7" code="40" attrs="class:box box-lg"/>
+    <tag element="div" depth="8" code="41" attrs="class:indent"/>
+    <tag element="h1" depth="9" code="42" attrs="itemprop"/>
+    <variant label="_C_" code="0"><pcdata depth="10"><![CDATA[Senior iOS Developer (800 Usd/month – 1000 Usd/month)]]></pcdata></variant>
+    <tag element="/h1" depth="9" code="-42" attrs="itemprop"/>
+    <tag element="/div" depth="8" code="-41" attrs="class:indent"/>
+    <tag element="div" depth="8" code="22" attrs="class:row"/>
+    <tag element="div" depth="9" code="43" attrs="class:col-md-7"/>
+    <tag element="h3" depth="10" code="44" attrs=""/>
+    <variant label="_D_" code="0"><pcdata depth="11"><![CDATA[Fabrica Vietnam]]></pcdata></variant>
+    <tag element="small" depth="11" code="45" attrs=""/>
+    <variant label="_E_" code="0"><pcdata depth="12"><![CDATA[Room 1004, Zen Plaza, 54-56 Nguyen Trai, District 1, Ho Chi Minh City]]></pcdata></variant>
+    <tag element="/small" depth="11" code="-45" attrs=""/>
+    <tag element="/h3" depth="10" code="-44" attrs=""/>
+    <tag element="/div" depth="9" code="-43" attrs="class:col-md-7"/>
+    <tag element="div" depth="9" code="46" attrs="class:col-md-2"/>
+    <tag element="/div" depth="9" code="-46" attrs="class:col-md-2"/>
+    <tag element="div" depth="9" code="47" attrs="class:col-md-3 push-top-15"/>
+    <pcdata depth="10"><![CDATA[Apply Now]]></pcdata>
+    <tag element="/div" depth="9" code="-47" attrs="class:col-md-3 push-top-15"/>
+    <tag element="/div" depth="8" code="-22" attrs="class:row"/>
+    <tag element="div" depth="8" code="48" attrs="class:push-top-15 visible-xs"/>
+    <tag element="/div" depth="8" code="-48" attrs="class:push-top-15 visible-xs"/>
+    <tag element="div" depth="8" code="49" attrs="class:clearfix push-top-15 link-list"/>
+    <pcdata depth="9"><![CDATA[Save job |  Add job alert for similar jobs]]></pcdata>
+    <tag element="/div" depth="8" code="-49" attrs="class:clearfix push-top-15 link-list"/>
+    <tag element="h2" depth="8" code="36" attrs=""/>
+    <pcdata depth="9"><![CDATA[Job Description]]></pcdata>
+    <tag element="/h2" depth="8" code="-36" attrs=""/>
+    <tag element="div" depth="8" code="50" attrs="id:job-description,class:in"/>
+    <variant label="_F_" code="0"><pcdata depth="9"><![CDATA[*Job Description - Develop applications and games on Iphone/Ipad for Japanese clients. - Participate in analyzing requirements, designing, implementation, testing and deployment. - Cooperate with other members to investigate new applications based on market demand. - Daily meeting and report to leader  * Benefits: - Salary package: highly competitive and negotiable (~ 800 USD/month or more depending on capability) - Language training: Japanese (beginning, intermediate and advanced levels) and English - Applicable for all benefits: insurances, 13th salary, bonus, sport and team building activities - Have chance to develop experience based on current company-owned projects and challenge in pioneering projects of different domains - Have opportunities to go to Japan for training and working based on project's demand - Have chance to be leader in near future - Working in international, professional, innovative and friendly working environment]]></pcdata></variant>
+    <tag element="/div" depth="8" code="-50" attrs="id:job-description,class:in"/>
+    <tag element="h2" depth="8" code="36" attrs=""/>
+    <pcdata depth="9"><![CDATA[Job Requirement]]></pcdata>
+    <tag element="/h2" depth="8" code="-36" attrs=""/>
+    <tag element="div" depth="8" code="51" attrs="id:job-requirement,class:in"/>
+    <variant label="_G_" code="0"><pcdata depth="9"><![CDATA[* Education:  University degree in Computer Science, Information Technology or equivalent   * Experience: - At least 2 years experience in iOS development - Understand MVC architecture, Agile model - Have strong experience in Objective-C, iOS SDK - Experienced in developing native application independently - Good experience in Cocoa, graphics, UI and layout design is a plus - Having experience in PHP (CakePHP, Zend, etc.), HTML/CSS, JavaScript, Json, and/or Android/Java is a strong plus - Knowing Japanese is a plus  * Skills: - Able to read and write English documents - Good sense of teamwork and high responsibility - Good communication skill and problem-solving skill - Self-motivated and self-disciplined    (JapanWorks)]]></pcdata></variant>
+    <tag element="/div" depth="8" code="-51" attrs="id:job-requirement,class:in"/>
+    <tag element="div" depth="8" code="52" attrs="class:push-top"/>
+    <tag element="strong" depth="9" code="7" attrs=""/>
+    <pcdata depth="10"><![CDATA[Share]]></pcdata>
+    <tag element="/strong" depth="9" code="-7" attrs=""/>
+    <tag element="/div" depth="8" code="-52" attrs="class:push-top"/>
+    <tag element="/div" depth="7" code="-40" attrs="class:box box-lg"/>
+    <tag element="/div" depth="6" code="-39" attrs="class:col-md-9 col-sm-8 job-info"/>
+    <tag element="div" depth="6" code="53" attrs="class:col-md-3 col-sm-4 pull-right col-xs-12 summary-box"/>
+    <tag element="div" depth="7" code="54" attrs="class:list-group double-col"/>
+    <tag element="div" depth="8" code="55" attrs="class:list-group-item highlight fontawesome-icon-list"/>
+    <tag element="div" depth="9" code="56" attrs="class:item-icon"/>
+    <tag element="/div" depth="9" code="-56" attrs="class:item-icon"/>
+    <tag element="div" depth="9" code="57" attrs="class:item-content"/>
+    <tag element="h4" depth="10" code="58" attrs=""/>
+    <pcdata depth="11"><![CDATA[Salary]]></pcdata>
+    <tag element="/h4" depth="10" code="-58" attrs=""/>
+    <tag element="strong" depth="10" code="7" attrs=""/>
+    <pcdata depth="11"><![CDATA[Negotiable]]></pcdata>
+    <tag element="/strong" depth="10" code="-7" attrs=""/>
+    <tag element="/div" depth="9" code="-57" attrs="class:item-content"/>
+    <tag element="/div" depth="8" code="-55" attrs="class:list-group-item highlight fontawesome-icon-list"/>
+    <tag element="div" depth="8" code="59" attrs="class:list-group-item fontawesome-icon-list"/>
+    <tag element="div" depth="9" code="56" attrs="class:item-icon"/>
+    <tag element="/div" depth="9" code="-56" attrs="class:item-icon"/>
+    <tag element="div" depth="9" code="57" attrs="class:item-content"/>
+    <tag element="h4" depth="10" code="58" attrs=""/>
+    <pcdata depth="11"><![CDATA[Job level]]></pcdata>
+    <tag element="/h4" depth="10" code="-58" attrs=""/>
+    <variant label="_H_" code="0"><pcdata depth="10"><![CDATA[Experienced (Non-Manager)]]></pcdata></variant>
+    <tag element="/div" depth="9" code="-57" attrs="class:item-content"/>
+    <tag element="/div" depth="8" code="-59" attrs="class:list-group-item fontawesome-icon-list"/>
+    <tag element="div" depth="8" code="59" attrs="class:list-group-item fontawesome-icon-list"/>
+    <tag element="div" depth="9" code="56" attrs="class:item-icon"/>
+    <tag element="/div" depth="9" code="-56" attrs="class:item-icon"/>
+    <tag element="div" depth="9" code="57" attrs="class:item-content"/>
+    <tag element="h4" depth="10" code="58" attrs=""/>
+    <pcdata depth="11"><![CDATA[Job categories]]></pcdata>
+    <tag element="/h4" depth="10" code="-58" attrs=""/>
+    <variant label="_I_" code="0"><pcdata depth="10"><![CDATA[IT - Hardware/NetworkingInternet/Online MediaIT - Software]]></pcdata></variant>
+    <tag element="/div" depth="9" code="-57" attrs="class:item-content"/>
+    <tag element="/div" depth="8" code="-59" attrs="class:list-group-item fontawesome-icon-list"/>
+    <tag element="div" depth="8" code="59" attrs="class:list-group-item fontawesome-icon-list"/>
+    <tag element="div" depth="9" code="56" attrs="class:item-icon"/>
+    <tag element="/div" depth="9" code="-56" attrs="class:item-icon"/>
+    <tag element="div" depth="9" code="57" attrs="class:item-content"/>
+    <tag element="h4" depth="10" code="58" attrs=""/>
+    <pcdata depth="11"><![CDATA[Work locations]]></pcdata>
+    <tag element="/h4" depth="10" code="-58" attrs=""/>
+    <variant label="_J_" code="0"><pcdata depth="10"><![CDATA[Ho Chi Minh]]></pcdata></variant>
+    <tag element="/div" depth="9" code="-57" attrs="class:item-content"/>
+    <tag element="/div" depth="8" code="-59" attrs="class:list-group-item fontawesome-icon-list"/>
+    <tag element="div" depth="8" code="59" attrs="class:list-group-item fontawesome-icon-list"/>
+    <tag element="div" depth="9" code="56" attrs="class:item-icon"/>
+    <tag element="/div" depth="9" code="-56" attrs="class:item-icon"/>
+    <tag element="div" depth="9" code="57" attrs="class:item-content"/>
+    <tag element="h4" depth="10" code="58" attrs=""/>
+    <pcdata depth="11"><![CDATA[Preferred language]]></pcdata>
+    <tag element="/h4" depth="10" code="-58" attrs=""/>
+    <variant label="_K_" code="0"><pcdata depth="10"><![CDATA[English]]></pcdata></variant>
+    <tag element="/div" depth="9" code="-57" attrs="class:item-content"/>
+    <tag element="/div" depth="8" code="-59" attrs="class:list-group-item fontawesome-icon-list"/>
+    <tag element="div" depth="8" code="60" attrs="class:col-md-6 col-sm-6 col-xs-6 box box-md bg-gray text-center"/>
+    <variant label="_L_" code="0"><pcdata depth="9"><![CDATA[551 Views]]></pcdata></variant>
+    <tag element="/div" depth="8" code="-60" attrs="class:col-md-6 col-sm-6 col-xs-6 box box-md bg-gray text-center"/>
+    <tag element="div" depth="8" code="60" attrs="class:col-md-6 col-sm-6 col-xs-6 box box-md bg-gray text-center"/>
+    <variant label="_M_" code="0"><pcdata depth="9"><![CDATA[10 Aug Expires]]></pcdata></variant>
+    <tag element="/div" depth="8" code="-60" attrs="class:col-md-6 col-sm-6 col-xs-6 box box-md bg-gray text-center"/>
+    <tag element="/div" depth="7" code="-54" attrs="class:list-group double-col"/>
+    <tag element="/div" depth="6" code="-53" attrs="class:col-md-3 col-sm-4 pull-right col-xs-12 summary-box"/>
+    <tag element="/div" depth="5" code="-22" attrs="class:row"/>
+    <tag element="div" depth="5" code="22" attrs="class:row"/>
+    <tag element="div" depth="6" code="61" attrs="class:col-md-9 company-info"/>
+    <tag element="div" depth="7" code="40" attrs="class:box box-lg"/>
+    <tag element="div" depth="8" code="22" attrs="class:row"/>
+    <subtree><tag element="div" depth="8" code="22" attrs="class:row"/></subtree>
+    <tag element="/div" depth="8" code="-22" attrs="class:row"/>
+    <tag element="div" depth="8" code="64" attrs="class:clearfix"/>
+    <hook>
+      <and>
+        <tag element="div" depth="9" code="76" attrs="class:multi-carousel-wrapper"/>
+        <tag element="div" depth="10" code="77" attrs="class:multi-carousel"/>
+        <tag element="ul" depth="11" code="13" attrs=""/>
+        <tag element="li" depth="12" code="14" attrs=""/>
+        <tag element="/li" depth="12" code="-14" attrs=""/>
+        <tag element="li" depth="12" code="14" attrs=""/>
+        <tag element="/li" depth="12" code="-14" attrs=""/>
+        <tag element="li" depth="12" code="14" attrs=""/>
+        <tag element="/li" depth="12" code="-14" attrs=""/>
+        <tag element="/ul" depth="11" code="-13" attrs=""/>
+        <tag element="/div" depth="10" code="-77" attrs="class:multi-carousel"/>
+        <pcdata depth="10"><![CDATA[1 2 3 4 5 6]]></pcdata>
+        <tag element="/div" depth="9" code="-76" attrs="class:multi-carousel-wrapper"/>
+      </and>
+    </hook>
+    <variant label="_N_" code="0"><pcdata depth="9"><![CDATA[Website: http://en.www.fabrica-vietnam.com  Fabrica Vietnam is a software development outsourcing company with 100% foreign-invested from Fabrica Communications in Japan. Our company focuses on developing and maintaining websites, web applications, mobile applications and system integration for Japanese/Asian market. We aim to be one of major IT-bridges between Japan and Vietnam through turning talent to value in order to provide high-quality systems and services for clients.  We offer the professional working environment where you can develop your career and have opportunities to work directly with our Japanese experts and absorb up-to-date technologies. Our company is growing fast and we need talented, dynamic and skillful engineers to contribute to our success. By joining us from now, you will have opportunity to become key persons in our organization. View more  More jobs from this employer]]></pcdata></variant>
+    <tag element="/div" depth="8" code="-64" attrs="class:clearfix"/>
+    <tag element="/div" depth="7" code="-40" attrs="class:box box-lg"/>
+    <tag element="/div" depth="6" code="-61" attrs="class:col-md-9 company-info"/>
+    <tag element="/div" depth="5" code="-22" attrs="class:row"/>
+    <tag element="/div" depth="4" code="-38" attrs="id:section-job-detail"/>
+    <tag element="/div" depth="3" code="-15" attrs="class:main-wrapper "/>
+    <tag element="div" depth="3" code="8" attrs="class:container"/>
+    <tag element="div" depth="4" code="22" attrs="class:row"/>
+    <tag element="div" depth="5" code="65" attrs="class:col-md-4 hidden-sm hidden-xs"/>
+    <tag element="h5" depth="6" code="66" attrs=""/>
+    <pcdata depth="7"><![CDATA[About VietnamWorks]]></pcdata>
+    <tag element="/h5" depth="6" code="-66" attrs=""/>
+    <tag element="ul" depth="6" code="13" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[About Us]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[Contact Us]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[Press Corner]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[FAQ]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[Terms of Use]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[Privacy Statement]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="/ul" depth="6" code="-13" attrs=""/>
+    <tag element="/div" depth="5" code="-65" attrs="class:col-md-4 hidden-sm hidden-xs"/>
+    <tag element="div" depth="5" code="65" attrs="class:col-md-4 hidden-sm hidden-xs"/>
+    <tag element="h5" depth="6" code="66" attrs=""/>
+    <pcdata depth="7"><![CDATA[Tools]]></pcdata>
+    <tag element="/h5" depth="6" code="-66" attrs=""/>
+    <tag element="ul" depth="6" code="13" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[My Account]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[My Resumes]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[My Jobs]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[My Job Alerts]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[Employers' Messages]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="li" depth="7" code="14" attrs=""/>
+    <pcdata depth="8"><![CDATA[Career Advice]]></pcdata>
+    <tag element="/li" depth="7" code="-14" attrs=""/>
+    <tag element="/ul" depth="6" code="-13" attrs=""/>
+    <tag element="/div" depth="5" code="-65" attrs="class:col-md-4 hidden-sm hidden-xs"/>
+    <tag element="div" depth="5" code="67" attrs="class:col-md-4 col-sm-12 col-xs-12"/>
+    <tag element="div" depth="6" code="68" attrs="class:col-md-12 col-sm-6 col-xs-12"/>
+    <tag element="div" depth="7" code="69" attrs="class:home-social"/>
+    <tag element="h5" depth="8" code="66" attrs=""/>
+    <pcdata depth="9"><![CDATA[Subscribe to Us]]></pcdata>
+    <tag element="/h5" depth="8" code="-66" attrs=""/>
+    <tag element="/div" depth="7" code="-69" attrs="class:home-social"/>
+    <tag element="/div" depth="6" code="-68" attrs="class:col-md-12 col-sm-6 col-xs-12"/>
+    <tag element="div" depth="6" code="70" attrs="class:col-md-12 col-sm-6 hidden-xs"/>
+    <tag element="h5" depth="7" code="66" attrs=""/>
+    <pcdata depth="8"><![CDATA[VietnamWorks Apps]]></pcdata>
+    <tag element="/h5" depth="7" code="-66" attrs=""/>
+    <tag element="/div" depth="6" code="-70" attrs="class:col-md-12 col-sm-6 hidden-xs"/>
+    <tag element="/div" depth="5" code="-67" attrs="class:col-md-4 col-sm-12 col-xs-12"/>
+    <tag element="/div" depth="4" code="-22" attrs="class:row"/>
+    <tag element="/div" depth="3" code="-8" attrs="class:container"/>
+    <tag element="div" depth="3" code="8" attrs="class:container"/>
+    <tag element="div" depth="4" code="71" attrs="class:copyright"/>
+    <pcdata depth="5"><![CDATA[Copyright © Navigos Group Vietnam Joint Stock Company  130 Suong Nguyet Anh Street, Ben Thanh Ward, District 1, Ho Chi Minh City, Vietnam]]></pcdata>
+    <tag element="/div" depth="4" code="-71" attrs="class:copyright"/>
+    <tag element="/div" depth="3" code="-8" attrs="class:container"/>
+    <tag element="div" depth="3" code="3" attrs=""/>
+    <tag element="/div" depth="3" code="-3" attrs=""/>
+    <tag element="/div" depth="2" code="-3" attrs=""/>
+    <tag element="/body" depth="1" code="-2" attrs=""/>
+    <tag element="/html" depth="0" code="-1" attrs=""/>
+  </and>
+</expression>
+</wrapper>
