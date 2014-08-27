@@ -54,7 +54,6 @@ package roadrunner.labeller;
 
 import java.util.*;
 
-import roadrunner.test.ast.*;
 import roadrunner.util.Util;
 import roadrunner.ast.ASTVariant;
 import roadrunner.ast.Expression;

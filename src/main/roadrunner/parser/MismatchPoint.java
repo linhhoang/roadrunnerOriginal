@@ -62,7 +62,6 @@ import roadrunner.ast.ExpressionRegion;
 import roadrunner.ast.PrefixHunter;
 
 import roadrunner.engine.space.SearchSpace;
-import roadrunner.test.bidi.*;
 
 public class MismatchPoint {
     

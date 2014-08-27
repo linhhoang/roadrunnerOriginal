@@ -59,7 +59,6 @@ import roadrunner.ast.ASTSubtree;
 import roadrunner.ast.ASTToken;
 import roadrunner.ast.ASTVariant;
 import roadrunner.ast.Node;
-import roadrunner.test.ast.*;
 
 public class ParserListenerAdapter implements ParserListener {
   

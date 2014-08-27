@@ -55,8 +55,6 @@ package roadrunner.parser;
 import java.util.*;
 
 import roadrunner.bidi.Direction;
-import roadrunner.test.ast.*;
-import roadrunner.test.bidi.*;
 import roadrunner.ast.ASTAnd;
 import roadrunner.ast.ASTSubtree;
 import roadrunner.ast.ASTToken;

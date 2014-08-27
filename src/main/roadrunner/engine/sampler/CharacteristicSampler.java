@@ -71,8 +71,6 @@ import roadrunner.ast.Visitor;
 import roadrunner.ast.VisitorPlugger;
 import roadrunner.parser.Token;
 import roadrunner.parser.token.TokenFactory;
-import roadrunner.test.ast.*;
-import roadrunner.test.bidi.*;
 
 public class CharacteristicSampler extends VisitorPlugger implements Visitor {
         

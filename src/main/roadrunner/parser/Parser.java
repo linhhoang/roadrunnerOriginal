@@ -69,8 +69,6 @@ import roadrunner.ast.Walker;
 import roadrunner.bidi.BidirectionalListFactory;
 import roadrunner.bidi.Direction;
 import roadrunner.bidi.Region;
-import roadrunner.test.ast.*;
-import roadrunner.test.bidi.*;
 
 public class Parser extends Walker implements Visitor {
     static private Logger log = Logger.getLogger(Parser.class.getName());

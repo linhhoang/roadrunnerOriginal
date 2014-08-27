@@ -65,7 +65,6 @@ import roadrunner.ast.Node;
 import roadrunner.ast.Matchable;
 import roadrunner.ast.PrefixHunter;
 import roadrunner.parser.Token;
-import roadrunner.test.bidi.*;
 import roadrunner.config.Config;
 import roadrunner.config.Constants;
 

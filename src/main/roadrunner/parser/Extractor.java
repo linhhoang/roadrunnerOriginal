@@ -57,7 +57,6 @@ import roadrunner.Sample;
 import roadrunner.Wrapper;
 import roadrunner.Instance;
 import roadrunner.bidi.Direction;
-import roadrunner.test.ast.*;
 import roadrunner.ast.ASTAnd;
 import roadrunner.ast.ASTBuilder;
 import roadrunner.ast.ASTHook;

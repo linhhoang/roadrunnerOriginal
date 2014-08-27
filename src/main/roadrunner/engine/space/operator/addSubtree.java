@@ -63,9 +63,6 @@ import roadrunner.ast.Node;
 import roadrunner.parser.MismatchPoint;
 import roadrunner.parser.Token;
 import roadrunner.engine.space.Operator;
-import roadrunner.test.ast.*;
-import roadrunner.test.bidi.*;
-import roadrunner.test.parser.*;
 import roadrunner.util.Indenter;
 
 class addSubtree extends SimpleOperator implements Operator {

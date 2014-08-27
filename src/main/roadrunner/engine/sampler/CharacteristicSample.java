@@ -62,7 +62,6 @@ import roadrunner.ast.ExpressionRegion;
 import roadrunner.parser.Parser;
 import roadrunner.parser.Token;
 import roadrunner.parser.TokenList;
-import roadrunner.test.bidi.*;
 
 public class CharacteristicSample extends TokenList {
     
