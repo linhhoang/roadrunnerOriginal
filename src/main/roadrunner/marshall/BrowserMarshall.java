@@ -83,6 +83,7 @@ import roadrunner.Instance;
 import roadrunner.Wrapper;
 import roadrunner.Sample;
 import roadrunner.engine.MDLEvaluator;
+import roadrunner.util.PropertyUtils;
 import roadrunner.util.Util;
 import roadrunner.util.Indenter;
 import roadrunner.parser.BindingException;
@@ -117,7 +118,18 @@ public class BrowserMarshall implements MarshallConstants {
         return new File(".."+File.separatorChar+STYLE_DIRNAME+File.separatorChar+datasetStyle.getName());
     }
     private File getFileInWrapperOutDir(String filename) throws FileNotFoundException {
-        return Config.getFileInOutputDir(this.name+File.separator+filename);
+        String wrapperFolder = String.format(PropertyUtils.getInstance().getValue("output.folder.wrapper"), this.name);
+        
+        File folder = new File(wrapperFolder);
+        
+        if (!folder.exists())
+        {
+            folder.mkdirs();
+            log.info("Folder '" + wrapperFolder + "' is created successful.");
+        }
+        
+        return new File(folder, filename);
+//        return Config.getFileInOutputDir(this.name+File.separator+filename);
     }
     private File getFileInStylesDir(String filename) throws FileNotFoundException {
         return Config.getFileInOutputDir(STYLE_DIRNAME+File.separator+filename);
@@ -171,7 +183,7 @@ public class BrowserMarshall implements MarshallConstants {
     
     private void writeResultFile() throws IOException {
         Wrapper first = (Wrapper)this.repository.getWrappers().iterator().next();
-        PrintWriter out = new PrintWriter(new FileWriter(getResultsFile()));
+        PrintWriter out = new PrintWriter(getResultsFile(), "UTF-8");
         out.println("<!DOCTYPE HTML PUBLIC \"-//W)3C//DTD HTML 4.01 Frameset//EN\"");
         out.print("   \"http://www.w3.org/TR/html4/frameset.dtd\">");
         out.println("<HTML><HEAD><TITLE>The RoadRunner Project</TITLE></HEAD>");
@@ -238,7 +250,7 @@ public class BrowserMarshall implements MarshallConstants {
             Set samples   = repository.getSamples(wrapper);
             log.fine("There are "+samples.size()+" samples");
             
-            PrintWriter out = new PrintWriter(new FileWriter(getDataSetFile(wrapper)));
+            PrintWriter out = new PrintWriter(getDataSetFile(wrapper), "UTF-8");
             out.println("<?xml version='1.0' encoding=\"" + roadrunner.utils.Constants.UTF8_ENCODE + "\"?>");
             out.println("<?xml-stylesheet href=\""+getRelativeDataSetStyleFile()+"\" type=\"text/xsl\"?>");
             out.println("<"+DATASET+" "+WRAPPEDBY+"=\""+wrapper.getName()+"\">");
