@@ -24,18 +24,18 @@
      RoadRunner - un sistema per la generazione automatica di wrapper su sorgenti Web
      Copyright (C) 2003  Valter Crescenzi - crescenz@dia.uniroma3.it
 
-     Questo  programma è  software libero; è  lecito redistribuirlo  o
+     Questo  programma ï¿½  software libero; ï¿½  lecito redistribuirlo  o
      modificarlo secondo i termini della Licenza Pubblica Generica GNU
-     come è pubblicata dalla Free Software Foundation; o la versione 2
+     come ï¿½ pubblicata dalla Free Software Foundation; o la versione 2
      della licenza o (a propria scelta) una versione successiva.
 
-     Questo programma  è distribuito nella speranza che sia  utile, ma
+     Questo programma  ï¿½ distribuito nella speranza che sia  utile, ma
      SENZA  ALCUNA GARANZIA;  senza neppure la  garanzia implicita  di
-     NEGOZIABILITÀ  o di  APPLICABILITÀ PER  UN PARTICOLARE  SCOPO. Si
+     NEGOZIABILITï¿½  o di  APPLICABILITï¿½ PER  UN PARTICOLARE  SCOPO. Si
      veda la Licenza Pubblica Generica GNU per avere maggiori dettagli.
 
      Questo  programma deve  essere  distribuito assieme  ad una copia
-     della Licenza Pubblica Generica GNU; in caso contrario, se ne può
+     della Licenza Pubblica Generica GNU; in caso contrario, se ne puï¿½
      ottenere  una scrivendo  alla:
 
      Free  Software Foundation, Inc.,
@@ -58,6 +58,7 @@ import java.io.*;
 import java.util.*;
 import java.util.logging.*;
 
+import roadrunner.util.PropertyUtils;
 import roadrunner.util.Util;
 
 public class Config {
@@ -141,7 +142,8 @@ public class Config {
     }
     
     public static File getFileInOutputDir(String filename) throws FileNotFoundException {
-        File outputdir = Util.searchInRRHOME(getPrefs().getString(Constants.OUTPUTDIR));
+//        File outputdir = Util.searchInRRHOME(getPrefs().getString(Constants.OUTPUTDIR));
+        String outputdir = PropertyUtils.getInstance().getValue("output.folder");
         return new File(outputdir,filename);
     }
     

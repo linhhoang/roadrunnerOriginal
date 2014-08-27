@@ -58,7 +58,6 @@ import java.util.*;
 import roadrunner.bidi.BidirectionalListFactory;
 import roadrunner.bidi.Direction;
 import roadrunner.bidi.Region;
-import roadrunner.test.bidi.*;
 
 public class VisitorPlugger implements Visitor {
     

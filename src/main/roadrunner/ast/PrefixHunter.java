@@ -59,7 +59,6 @@ import roadrunner.bidi.BidirectionalListFactory;
 import roadrunner.bidi.Direction;
 import roadrunner.bidi.Region;
 import roadrunner.parser.Token;
-import roadrunner.test.bidi.*;
 
 public class PrefixHunter extends VisitorPlugger implements Visitor {
     

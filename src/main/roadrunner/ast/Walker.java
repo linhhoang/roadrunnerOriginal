@@ -56,7 +56,6 @@ import java.util.ListIterator;
 
 import roadrunner.bidi.Direction;
 import roadrunner.bidi.Region;
-import roadrunner.test.bidi.*;
 
 public class Walker extends VisitorPlugger implements Visitor {
     
