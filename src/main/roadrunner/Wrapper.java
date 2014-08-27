@@ -107,6 +107,20 @@ public class Wrapper
         out.close();
     }
     
+    static private void write(Wrapper wrapper, File file) throws IOException
+    {
+        PrintWriter out = new PrintWriter(file, "UTF-8");
+
+        Indenter ind = new Indenter(false);
+        out.println("<?xml version='1.0' encoding=\"UTF-8\"?>");
+        out.println("<" + WRAPPER + " " + NAME + "=\"" + wrapper.getName() + "\">");
+        wrapper.getPrefs().encode(ind, out); // encode lexical configuration
+        new ASTEncoder(ind, out).encode(wrapper.getExpression());
+        ind.dec();
+        out.println("</" + WRAPPER + ">");
+        out.close();
+    } 
+    
     
     static private void write(Wrapper wrapper, OutputStream ostream) throws IOException
     {
@@ -285,7 +299,8 @@ public class Wrapper
 
     public void saveAs(File file) throws IOException
     {
-        write(this, new FileWriter(file));
+//        write(this, new FileWriter(file));
+        write(this, file);
     }
 
 
