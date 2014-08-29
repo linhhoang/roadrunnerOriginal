@@ -372,7 +372,7 @@ public class Wrapper
                     String name = f.getName();
                     name = name.substring(0,name.length()-5);
 
-                    PrintWriter fileOut = new PrintWriter(path+"res_"+name+".xml","utf8");
+                    PrintWriter fileOut = new PrintWriter(path+"res_"+name+".xml","UTF-8");
                     fileOut.println("<?xml version=\'1.0\' encoding=\"UTF-8\"?>");
                     fileOut.println("<?xml-stylesheet href=\"..\\.style\\data.xsl\" type=\"text/xsl\"?>");
                     new InstanceSerializer(data,fileOut,new Indenter()).encode();

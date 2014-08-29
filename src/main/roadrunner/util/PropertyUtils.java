@@ -94,6 +94,10 @@ public final class PropertyUtils
                 }
             }
         }
+        else
+        {
+        	log.error("Key '" + configKey + "' is not defined.");
+        }
         return propertyValue;
     }
 
